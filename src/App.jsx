@@ -92,7 +92,7 @@ export default function KyroWebsite() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img 
-              src="/mnt/data/logo.jpeg" 
+              src="/logo.jpeg"
               alt="KYRO Logo" 
               className="w-14 h-14 object-contain rounded-xl bg-white p-1 shadow-2xl"
             />
