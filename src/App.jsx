@@ -1,3 +1,5 @@
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 export default function KyroWebsite() {
   const services = [
     'V-Bucks', 'Crew Pack', 'X-Box Game Pass', 'Netflix', 'Disney+', 'Prime Video', 'Valorant VP', 'Canva Pro', 'Freepik Premium', 'YouTube Premium', 'Crunchyroll', 'NordVPN'
@@ -382,6 +384,7 @@ export default function KyroWebsite() {
       <footer className="border-t border-white/10 py-10 px-6 text-center text-gray-500 text-sm">
         © 2026 KYRO — Premium Digital Services. All Rights Reserved.
       </footer>
+      <SpeedInsights />
     </div>
   );
 }
